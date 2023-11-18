@@ -1,0 +1,35 @@
+project:
+  type: website
+
+website:
+  title: "Deepanshu Mahto"
+  navbar:
+    logo: images/logo.png
+    # right:
+      # - icon: twitter
+      #   href: https://twitter.com/deepanshumahto
+      # - icon: linkedin
+      #   href: https://www.linkedin.com/in/mahtodeepanshu/
+      # - icon: github
+      #   href: https://github.com/mahtodeepanshu
+    left:
+      - href: index.qmd
+        text: Home
+  page-footer:
+    center: 
+      - text: "License™️"
+        href: license.qmd
+  favicon: images/logo.png
+  twitter-card: true
+  comments: false
+
+format:
+  html:
+    theme: #cosmo #darkly #pulse #skectchy #superhero 
+      light: cosmo
+      dark: [cosmo, theme-dark.scss]
+    css: styles.css
+    toc: true
+
+
+

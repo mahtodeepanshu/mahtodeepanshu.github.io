@@ -1,0 +1,36 @@
+---
+title: "Deepanshu Mahto"
+subtitle: "*'That's all it is, Miles. A leap of faith.'* <br> - Into the Spiderverse (2018)" 
+about:
+  image: "images/dp.png"
+  image-width: 20em
+  image-shape: rounded
+  template: trestles
+  links:
+    - icon: twitter
+      href: https://twitter.com/deepanshumahto
+    - icon: linkedin
+      href: https://www.linkedin.com/in/mahtodeepanshu/
+    - icon: github
+      href: https://github.com/mahtodeepanshu
+    - icon: instagram
+      href: https://instagram.com/mahto.deepanshu
+    
+---
+<br><br>
+Hey there! 👋 <br><br> I am a final year undergarduate at IIIT Allahabad currently pursuing my Bachelor's in Electronics and Communication Engineering. <br><br> As a passionate full-stack developer,  I enjoy bringing new and creative ideas to the ever-changing world of web development leveraging them with cutting-edge tools and technology.<br><br> When I'm not immersed in coding, you'll find me exploring new Maggi recipes and playing football. Photography is a source of joy, capturing moments with a discerning eye. And yes, I'm a biiiig Spidey fan! <br><br> Interested? I am always up for a coffee! 
+
+
+<!-- 
+## 🎓 Education
+---
+
+**IIIT Allahabad** | Dec 2020 - Present <br>
+  - B.Tech. in Electronics and Communication Engineering <br>
+  
+**Delhi Public School Bhilai** | 2018 - 2020 <br>
+  - CBSE XII
+
+**Delhi Public School Bhilai** | 2016 - 2018 <br>
+  - CBSE X 
+ -->
