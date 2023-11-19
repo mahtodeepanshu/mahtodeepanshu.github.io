@@ -16,6 +16,8 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: "https://drive.google.com/file/d/1s1NbVwd8DoPKGZMLlFPlP-p5PPDIykaQ/view"
+        text: Resume
   page-footer:
     center: 
       - text: "Built with ❤️ &copy; 2023 Deepanshu Mahto"
