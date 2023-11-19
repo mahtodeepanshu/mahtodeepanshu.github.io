@@ -18,7 +18,7 @@ website:
         text: Home
   page-footer:
     center: 
-      - text: "License™️"
+      - text: "Built with ❤️ &copy; 2023 Deepanshu Mahto"
         href: license.qmd
   favicon: images/logo.png
   twitter-card: true
@@ -27,7 +27,7 @@ website:
 format:
   html:
     theme: #cosmo #darkly #pulse #skectchy #superhero 
-      light: cosmo
+      light: [cosmo, theme-light.scss]
       # dark: [cosmo, theme-dark.scss]
     css: styles.css
     toc: true

@@ -31,6 +31,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./images/logo.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -59,7 +61,38 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="styles.css">
 <meta name="twitter:title" content="Deepanshu Mahto">
@@ -110,6 +143,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#hey-there" id="toc-hey-there" class="nav-link active" data-scroll-target="#hey-there">👋 Hey there!</a></li>
   <li><a href="#education" id="toc-education" class="nav-link" data-scroll-target="#education">🎓 Education</a></li>
   <li><a href="#projects" id="toc-projects" class="nav-link" data-scroll-target="#projects">👩🏻‍💻 Projects</a></li>
+  <li><a href="#beyond" id="toc-beyond" class="nav-link" data-scroll-target="#beyond">🌟 Beyond</a></li>
   </ul>
 </nav>
     </div>
@@ -149,7 +183,7 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="hey-there" class="level2">
 <h2 data-anchor-id="hey-there">👋 Hey there!</h2>
-<p>I am a final year undergarduate at IIIT Allahabad currently pursuing my Bachelor’s in Electronics and Communication Engineering. <br><br> As a passionate full-stack developer, I enjoy bringing new and creative ideas to the ever-changing world of web development leveraging them with cutting-edge tools and technology.<br><br> When I’m not immersed in coding, you’ll find me exploring new maggi recipes and playing football. Photography is a source of joy, capturing moments with a discerning eye. And yes, I’m a biiiig Spidey fan! <br><br> Interested? I am always up for a coffee!</p>
+<p>I am a final year undergraduate at IIIT Allahabad currently pursuing my Bachelor’s in Electronics and Communication Engineering. <br><br> As a passionate full-stack developer, I enjoy bringing new and creative ideas to the ever-changing world of web development leveraging them with cutting-edge tools and technology.<br><br> When I’m not immersed in coding, you’ll find me exploring new maggi recipes and playing football. Photography is a source of joy, capturing moments with a discerning eye. And yes, I’m a biiiig Spidey fan! <br><br> Interested? I am always up for a coffee!</p>
 </section>
 <section id="education" class="level2">
 <h2 data-anchor-id="education">🎓 Education</h2>
@@ -162,21 +196,63 @@ ul.task-list li input[type="checkbox"] {
 <h2 data-anchor-id="projects">👩🏻‍💻 Projects</h2>
 <hr>
 <p><strong>Placement Portal</strong> | 2023 <a href="https://github.com/mahtodeepanshu/placement-portal-iiita" target="_blank" rel="noopener noreferrer"><img align="center" alt="GitHub" width="30px" style="margin-left:10px; padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"></a> <a href="https://placement-portal-iiita.onrender.com/" target="_blank" rel="noopener noreferrer"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewbox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"></path></svg></a> <br></p>
+<p><code>React</code> <code>Express.js</code> <code>Node.js</code> <code>MongoDB</code></p>
 <ul>
 <li>A web-based application specifically designed to streamline and manage the activities of the Training and Placement Cell in a college.<br></li>
 </ul>
+<p><strong>Sonora</strong> | 2023 <a href="https://github.com/mahtodeepanshu/sonora" target="_blank" rel="noopener noreferrer"><img align="center" alt="GitHub" width="30px" style="margin-left:10px; padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"></a> <a href="https://sonora-omdngcmaa-mahtodeepanshu.vercel.app/" target="_blank" rel="noopener noreferrer"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewbox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"></path></svg></a> <br></p>
+<p><code>Next.js</code> <code>React</code> <code>PostgreSQL</code> <code>OAuth</code> <code>Stripe</code></p>
+<ul>
+<li>A feature-rich web application with song upload, Stripe payments, sleek UI design, Supabase authentication, Github login, file/image uploads, form validation, audio playback, favorites/playlists, and advanced player components. <br></li>
+</ul>
 <p><strong>Gradly</strong> | 2023 <a href="https://github.com/mahtodeepanshu/gradly" target="_blank" rel="noopener noreferrer"><img align="center" alt="GitHub" width="30px" style="margin-left:10px; padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"></a> <a href="https://gradly.onrender.com/" target="_blank" rel="noopener noreferrer"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewbox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"></path></svg></a> <br></p>
+<p><code>React</code> <code>Express.js</code> <code>Node.js</code> <code>MongoDB</code> <code>PayPal</code></p>
 <ul>
 <li>A intuitive web based application to facilitate peer-to-peer transactions for surplus items among students enabling seamless transactions and promoting a sense of community within the student body.<br></li>
 </ul>
+<p><strong>Gmail Vacation Responder</strong> | 2023 <a href="https://github.com/mahtodeepanshu/openinapp-assessment" target="_blank" rel="noopener noreferrer"><img align="center" alt="GitHub" width="30px" style="margin-left:10px; padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"></a> <br></p>
+<p><code>Node.js</code> <code>GMail API</code> <code>OAuth</code></p>
+<ul>
+<li>A Node.js application, powered by the Gmail API, operates in the background, autonomously sending vacation replies to unread emails at random intervals, employing OAuth2 for secure authentication and utilizing Express for server integration while ensuring no double replies are sent to any mail<br></li>
+</ul>
 <p><strong>CC Mirror</strong> | 2023 <a href="https://github.com/mahtodeepanshu/cc-reminder" target="_blank" rel="noopener noreferrer"><img align="center" alt="GitHub" width="30px" style="margin-left:10px; padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"></a> <br></p>
+<p><code>HTML</code> <code>CSS</code> <code>Javascript</code> <code>CList API</code></p>
 <ul>
 <li>A Chrome extension that provides a comprehensive list of contest details across major platforms, allowing for personalization according to individual preferences.<br></li>
 </ul>
+</section>
+<section id="beyond" class="level2">
+<h2 data-anchor-id="beyond">🌟 Beyond</h2>
+<hr>
+<p><strong>Specialist</strong> at Codeforces - <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewbox="0 0 27 27"><path fill="currentColor" d="M4.5 7.5A1.5 1.5 0 0 1 6 9v10.5A1.5 1.5 0 0 1 4.5 21h-3C.673 21 0 20.328 0 19.5V9c0-.828.673-1.5 1.5-1.5h3zm9-4.5A1.5 1.5 0 0 1 15 4.5v15a1.5 1.5 0 0 1-1.5 1.5h-3c-.827 0-1.5-.672-1.5-1.5v-15c0-.828.673-1.5 1.5-1.5h3zm9 7.5A1.5 1.5 0 0 1 24 12v7.5a1.5 1.5 0 0 1-1.5 1.5h-3a1.5 1.5 0 0 1-1.5-1.5V12a1.5 1.5 0 0 1 1.5-1.5h3z"></path></svg><a href="https://codeforces.com/profile/mahtodeepanshu" style="text-decoration:none;" target="_blank" rel="noopener noreferrer"> mahtodeepanshu</a></p>
+<p><strong>Winner</strong> in Football at ASMITA’23 - IIIT Allahabad</p>
+<p><strong>2nd Runner up</strong> in Football at SPARDHA’22 - IIT-BHU</p>
+<p>Photography Enthusiast - <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewbox="0 0 16 16"> <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"></path> </svg> <a href="https://www.instagram.com/lensposed/" target="_blank" rel="noopener noreferrer" style="text-decoration:none;"><span class="citation" data-cites="lensposed">@lensposed</span></a></p>
 
 
 </section>
-</main></div>
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1700329216888" data-listing-reading-time-sort="0">
+<div class="thumbnail">
+<p><a href="./license.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./license.html">
+<div class="listing-description">
+
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./license.html"> </a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main></div>
 </div>
  <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -414,7 +490,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="./license.html">License™️</a>
+    <a class="nav-link" href="./license.html">Built with ❤️ © 2023 Deepanshu Mahto</a>
   </li>  
 </ul>
     </div>

@@ -4,14 +4,14 @@
     "href": "index.html",
     "title": "Deepanshu Mahto",
     "section": "",
-    "text": "I am a final year undergarduate at IIIT Allahabad currently pursuing my Bachelor’s in Electronics and Communication Engineering.  As a passionate full-stack developer, I enjoy bringing new and creative ideas to the ever-changing world of web development leveraging them with cutting-edge tools and technology. When I’m not immersed in coding, you’ll find me exploring new maggi recipes and playing football. Photography is a source of joy, capturing moments with a discerning eye. And yes, I’m a biiiig Spidey fan!  Interested? I am always up for a coffee!"
+    "text": "I am a final year undergraduate at IIIT Allahabad currently pursuing my Bachelor’s in Electronics and Communication Engineering.  As a passionate full-stack developer, I enjoy bringing new and creative ideas to the ever-changing world of web development leveraging them with cutting-edge tools and technology. When I’m not immersed in coding, you’ll find me exploring new maggi recipes and playing football. Photography is a source of joy, capturing moments with a discerning eye. And yes, I’m a biiiig Spidey fan!  Interested? I am always up for a coffee!"
   },
   {
     "objectID": "index.html#hey-there",
     "href": "index.html#hey-there",
     "title": "Deepanshu Mahto",
     "section": "",
-    "text": "I am a final year undergarduate at IIIT Allahabad currently pursuing my Bachelor’s in Electronics and Communication Engineering.  As a passionate full-stack developer, I enjoy bringing new and creative ideas to the ever-changing world of web development leveraging them with cutting-edge tools and technology. When I’m not immersed in coding, you’ll find me exploring new maggi recipes and playing football. Photography is a source of joy, capturing moments with a discerning eye. And yes, I’m a biiiig Spidey fan!  Interested? I am always up for a coffee!"
+    "text": "I am a final year undergraduate at IIIT Allahabad currently pursuing my Bachelor’s in Electronics and Communication Engineering.  As a passionate full-stack developer, I enjoy bringing new and creative ideas to the ever-changing world of web development leveraging them with cutting-edge tools and technology. When I’m not immersed in coding, you’ll find me exploring new maggi recipes and playing football. Photography is a source of joy, capturing moments with a discerning eye. And yes, I’m a biiiig Spidey fan!  Interested? I am always up for a coffee!"
   },
   {
     "objectID": "index.html#education",
@@ -25,6 +25,20 @@
     "href": "index.html#projects",
     "title": "Deepanshu Mahto",
     "section": "👩🏻‍💻 Projects",
-    "text": "👩🏻‍💻 Projects\n\nPlacement Portal | 2023   \n\nA web-based application specifically designed to streamline and manage the activities of the Training and Placement Cell in a college.\n\nGradly | 2023   \n\nA intuitive web based application to facilitate peer-to-peer transactions for surplus items among students enabling seamless transactions and promoting a sense of community within the student body.\n\nCC Mirror | 2023  \n\nA Chrome extension that provides a comprehensive list of contest details across major platforms, allowing for personalization according to individual preferences."
+    "text": "👩🏻‍💻 Projects\n\nPlacement Portal | 2023   \nReact Express.js Node.js MongoDB\n\nA web-based application specifically designed to streamline and manage the activities of the Training and Placement Cell in a college.\n\nSonora | 2023   \nNext.js React PostgreSQL OAuth Stripe\n\nA feature-rich web application with song upload, Stripe payments, sleek UI design, Supabase authentication, Github login, file/image uploads, form validation, audio playback, favorites/playlists, and advanced player components. \n\nGradly | 2023   \nReact Express.js Node.js MongoDB PayPal\n\nA intuitive web based application to facilitate peer-to-peer transactions for surplus items among students enabling seamless transactions and promoting a sense of community within the student body.\n\nGmail Vacation Responder | 2023  \nNode.js GMail API OAuth\n\nA Node.js application, powered by the Gmail API, operates in the background, autonomously sending vacation replies to unread emails at random intervals, employing OAuth2 for secure authentication and utilizing Express for server integration while ensuring no double replies are sent to any mail\n\nCC Mirror | 2023  \nHTML CSS Javascript CList API\n\nA Chrome extension that provides a comprehensive list of contest details across major platforms, allowing for personalization according to individual preferences."
+  },
+  {
+    "objectID": "index.html#extras",
+    "href": "index.html#extras",
+    "title": "Deepanshu Mahto",
+    "section": "🌟Extras",
+    "text": "🌟Extras\n\nSpecialist at Codeforces -  mahtodeepanshu\nWinner in Football - ASMITA’23 - IIIT Allahabad\n2nd Runner up in Football - SPARDHA’22 - IIT-BHU\nPhotography Enthusiast"
+  },
+  {
+    "objectID": "index.html#beyond",
+    "href": "index.html#beyond",
+    "title": "Deepanshu Mahto",
+    "section": "🌟 Beyond",
+    "text": "🌟 Beyond\n\nSpecialist at Codeforces -  mahtodeepanshu\nWinner in Football at ASMITA’23 - IIIT Allahabad\n2nd Runner up in Football at SPARDHA’22 - IIT-BHU\nPhotography Enthusiast -    @lensposed"
   }
 ]
