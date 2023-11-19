@@ -17,20 +17,36 @@ about:
       href: https://instagram.com/mahto.deepanshu
     
 ---
-<br><br>
-Hey there! 👋 <br><br> I am a final year undergarduate at IIIT Allahabad currently pursuing my Bachelor's in Electronics and Communication Engineering. <br><br> As a passionate full-stack developer,  I enjoy bringing new and creative ideas to the ever-changing world of web development leveraging them with cutting-edge tools and technology.<br><br> When I'm not immersed in coding, you'll find me exploring new Maggi recipes and playing football. Photography is a source of joy, capturing moments with a discerning eye. And yes, I'm a biiiig Spidey fan! <br><br> Interested? I am always up for a coffee! 
 
 
-<!-- 
+## 👋 Hey there!  
+I am a final year undergarduate at IIIT Allahabad currently pursuing my Bachelor's in Electronics and Communication Engineering. <br><br> As a passionate full-stack developer,  I enjoy bringing new and creative ideas to the ever-changing world of web development leveraging them with cutting-edge tools and technology.<br><br> When I'm not immersed in coding, you'll find me exploring new maggi recipes and playing football. Photography is a source of joy, capturing moments with a discerning eye. And yes, I'm a biiiig Spidey fan! <br><br> Interested? I am always up for a coffee! 
+
+
+
 ## 🎓 Education
 ---
 
 **IIIT Allahabad** | Dec 2020 - Present <br>
   - B.Tech. in Electronics and Communication Engineering <br>
   
-**Delhi Public School Bhilai** | 2018 - 2020 <br>
+**Delhi Public School Bhilai** | 2020 <br>
   - CBSE XII
 
-**Delhi Public School Bhilai** | 2016 - 2018 <br>
+**Delhi Public School Bhilai** | 2018 <br>
   - CBSE X 
- -->
+
+## 👩🏻‍💻 Projects
+---
+
+**Placement Portal** | 2023 <img align="center" alt="GitHub" width="30px" style="margin-left:10px; padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"/></svg>  <br>
+
+- A web-based application specifically designed to streamline and manage the activities of the Training and Placement Cell in a college.<br>
+
+**Gradly** | 2023 <img align="center" alt="GitHub" width="30px" style="margin-left:10px; padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"/></svg><br>
+
+- A intuitive web based application to facilitate peer-to-peer transactions for surplus items among students enabling seamless transactions and promoting a sense of community within the student body.<br>
+
+**CC Mirror** | 2023 <img align="center" alt="GitHub" width="30px" style="margin-left:10px; padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"/></svg> <br>
+
+- A Chrome extension that provides a comprehensive list of contest details across major platforms, allowing for personalization according to individual preferences.<br>
