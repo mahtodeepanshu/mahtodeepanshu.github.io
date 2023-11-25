@@ -1,6 +1,6 @@
 ---
 title: "Deepanshu Mahto"
-subtitle: "*'That's all it is, Miles. A leap of faith.'* <br> - Into the Spiderverse (2018)" 
+subtitle: "*'That's all it is, Miles. A leap of faith.'* <br> - Into the Spider-Verse (2018)" 
 listing: default
 about:
   image: "images/dp.png"
