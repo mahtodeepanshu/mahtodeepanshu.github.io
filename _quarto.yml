@@ -16,7 +16,7 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: "/assets/resume/resume-deepanshumahto.pdf"
+      - href: "https://drive.google.com/file/d/1iuV-Ixo-vzidOTXI9yt4ChXIvgjEe7fp/view?usp=drive_link"
         text: Resume
   page-footer:
     center: 
