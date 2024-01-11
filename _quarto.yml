@@ -20,8 +20,8 @@ website:
         text: Resume
   page-footer:
     center: 
-      - text: "Built with ❤️ &copy; 2023 Deepanshu Mahto"
-        href: license.qmd
+      - text: "Built with ❤️ 2024 &copy; Deepanshu Mahto"
+        # href: license.qmd
   favicon: images/logo.png
   twitter-card: true
   comments: false
