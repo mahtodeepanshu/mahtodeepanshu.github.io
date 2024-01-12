@@ -23,7 +23,8 @@ about:
 
 
 ## 👋 Hey there!  
-I am a final year undergraduate at IIIT Allahabad currently pursuing my Bachelor's in Electronics and Communication Engineering. <br><br> As a passionate full-stack developer,  I enjoy bringing new and creative ideas to the ever-changing world of web development leveraging them with cutting-edge tools and technology.<br><br> When I'm not immersed in coding, you'll find me exploring new maggi recipes and playing football. Photography is a source of joy, capturing moments with a discerning eye. And yes, I'm a biiiig Spidey fan! <br><br> Interested? I am always up for a coffee! 
+I am a final year undergraduate at IIIT Allahabad web-slinging my way through life, just like Spidey!. <br><br> As a passionate full-stack developer,  I enjoy bringing new and creative ideas to the ever-changing world of web, leveraging them with cutting-edge tools and technology.
+<br><br> When I'm not coding, I'm either on the football field or behind the lens, capturing life's moments with a keen eye.<br><br> Currently, I am working at <strong><a href="https://www.hirequotient.com">HireQuotient</a></strong>, helping clients build their dream teams, algorithmically. <br><br> Interested? I am always up for a coffee! 
 
 
 ## 💻 Experience
