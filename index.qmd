@@ -23,15 +23,27 @@ about:
 
 
 ## 👋 Hey there!  
-I am a final year undergraduate at IIIT Allahabad web-slinging my way through life, just like Spidey!. <br><br> As a passionate full-stack developer,  I enjoy bringing new and creative ideas to the ever-changing world of web, leveraging them with cutting-edge tools and technology.
-<br><br> When I'm not coding, I'm either on the football field or behind the lens, capturing life's moments with a keen eye.<br><br> Currently, I am working at <strong><a href="https://www.hirequotient.com">HireQuotient</a></strong>, helping clients build their dream teams, algorithmically. <br><br> Interested? I am always up for a coffee! 
+I’m a final-year undergraduate at IIIT Allahabad, slinging through life. I thrive on using cutting-edge tech to craft innovative solutions to life. 
+<br>
+
+When I'm not coding, you'll probably find me on the football field or behind the lens capturing life's moments with a keen eye. <br>
+
+Currently, I am working at <strong><a href="https://www.zeta.tech/in/">Zeta</a></strong>, rethinking payments from core to edge for clients. 
+<br>
+
+Interested? I am always up for a coffee! 
 
 
 ## 💻 Experience
 ---
 
-**HireQuotient** | Jan 2024 - Present <br>
+**Zeta** | Mar 2024 - Present <br>
+    - SDE-1 (current) <br>
+    - SDE Intern <br>
+
+**HireQuotient** | Jan 2024 - Mar 2024 <br>
     - Software Engineering Intern <br>
+
 
 
 ## 🎓 Education
